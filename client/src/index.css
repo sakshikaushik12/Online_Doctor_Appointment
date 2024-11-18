@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* loader */
+.spinner {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  background-color: rgba(0, 0, 0, 0.383);
+}
+
+.form-btn {
+  width: 250px !important;
+  margin-top: 30px !important;
+}
+.btn-cont {
+  display: flex;
+  flex-direction: column;
+}
+.m-2 {
+  text-decoration: none;
+}
+.m-2:hover .underlined {
+  text-decoration: underline;
+}
+.ant-form {
+  line-height: 0.55;
+  border-radius: 5px;
+  background: #ffffff;
+  /* box-shadow: 4px 5px 0px #000000; */
+}
+.text-center {
+  margin-bottom: 20px;
+}
+.form-container {
+  background-image: url("D:\College Files\5th Semester\Online-Doctor-Appointment-Platform\5063406.jpg");
+  background-size: cover;
+}
+.m-2 {
+  text-align: center;
+}
+.header {
+  border-radius: 5px;
+}
+.register-form{
+  width: 300px;
+}
+.main{
+  background-color: #fef0e7;
+}
+.body{
+  background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
