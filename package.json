@@ -11,8 +11,6 @@
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "keywords": [],
-  "author": "techinfyt ",
-  "license": "MIT",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.3",
     "antd": "^5.4.2",
